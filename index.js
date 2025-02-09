@@ -33,7 +33,7 @@ program
     }
 
     // Repository URL
-    const repoUrl = "https://github.com/bhupeshv29/turboquick-app-starter.git";
+    const repoUrl = "https://github.com/bhupeshv29/Create-turboquick-app.git";
 
     // Create the project directory
     fs.mkdirSync(projectPath);
