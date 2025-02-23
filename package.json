@@ -1,28 +1,34 @@
 {
     "name": "create-turboquick-app",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "A CLI tool to quickly scaffold a project using the Turbo Starter template.",
     "main": "index.js",
     "type": "module",
     "bin": {
-      "create-turboquick-app": "./index.js"
+        "create-turboquick-app": "./index.js"
     },
     "scripts": {
-      "test": "node index.js --help"
+        "test": "node index.js --help"
     },
-    "keywords": ["cli", "nodejs", "scaffold", "template", "turbo"],
+    "keywords": [
+        "cli",
+        "nodejs",
+        "scaffold",
+        "template",
+        "turbo"
+    ],
     "author": {
-      "name": "Bhupesh Verma",
-      "email": "bhupeshverma29bv@gmail.com",
-      "url": "https://github.com/bhupeshv29"
+        "name": "Bhupesh Verma",
+        "email": "bhupeshverma29bv@gmail.com",
+        "url": "https://github.com/bhupeshv29"
     },
     "license": "MIT",
     "dependencies": {
-      "chalk": "^5.4.1",
-      "commander": "^13.1.0",
-      "fs-extra": "^11.3.0",
-      "inquirer": "^12.4.1",
-      "ora": "^8.2.0",
-      "simple-git": "^3.27.0"
+        "chalk": "^5.4.1",
+        "commander": "^13.1.0",
+        "fs-extra": "^11.3.0",
+        "inquirer": "^12.4.1",
+        "ora": "^8.2.0",
+        "simple-git": "^3.27.0"
     }
-  }
+}
